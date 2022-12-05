@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import componente_guillermoBenitez.CampoTextoBoton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusotextoboton.AppUsoTextoBotonViewController">
+   <children>
+      <Label fx:id="mostrarLabel" layoutX="40.0" layoutY="169.0" text="Pulsa botón...y muestra texto en esta etiqueta" />
+      <CampoTextoBoton fx:id="grabarPrimero" layoutX="53.0" layoutY="38.0" />
+      <CampoTextoBoton fx:id="grabarSegundo" layoutX="53.0" layoutY="100.0" />
+   </children>
+</AnchorPane>
